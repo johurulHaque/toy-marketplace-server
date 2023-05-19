@@ -53,17 +53,6 @@ async function run() {
       res.send(result);
     });
 
-    app.get("/user-toy", async(req, res) => {
-      // const query = req.query;
-      let query = {};
-      if(req.query?.email){
-        query ={email:req.query.email}
-      }
-      console.log(query)
-      const result = await database.find(query).toArray();
-      res.send(result);
-    });
-
 
     app.get('/toy/:id', async (req, res) => {
       const id = req.params.id; 
@@ -75,11 +64,51 @@ async function run() {
       // res.send(selectedToy)
     })
 
+    app.get("/user-toy", async(req, res) => {
+      // const query = req.query;
+      let query = {};
+      if(req.query?.email){
+        query ={email:req.query.email}
+      }
+      console.log(query)
+      const result = await database.find(query).toArray();
+      res.send(result);
+    }); 
+
 
     app.post('/add-toy',async(req, res)=>{
       const body = req.body;
       const result = await database.insertOne(body);
       res.send(result);
+    })
+
+    app.put('/update-toy/:id',async(req, res)=>{
+      const id = req.params.id;
+      const body = req.body;
+      const filter = { _id: new ObjectId(id) };
+      const options = { upsert: true };
+
+      const updateDoc = {
+        $set: {
+          name: body.name,
+          email: body.email,
+          image: body.image,
+          price: body.price,
+          quantity: body.quantity,
+          sellerName: body.sellerName,
+          subcategory: body.subcategory,
+
+        },
+      };
+      const result = await database.updateOne(filter, updateDoc, options);
+      res.send(result);
+    })
+
+    app.delete('/toy/:id',async(req, res)=>{
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await database.deleteOne(query);
+      res.send(result)  
     })
 
 
