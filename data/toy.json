@@ -1,0 +1,203 @@
+[
+    {
+      
+      "id":1,
+      "name": "Iron Man",
+      "image": "iron_man.jpg",
+      "price": 29.99,
+      "rating": 4.5,
+      "quantity": 10,
+      "subcategory": "Marvel",
+      "description": "Tony Stark's iconic armored superhero suit, equipped with repulsor rays and advanced technology."
+    },
+    {
+      "id":2,
+      "name": "Captain America",
+      "image": "captain_america.jpg",
+      "price": 24.99,
+      "rating": 4.2,
+      "quantity": 5,
+      "subcategory": "Marvel",
+      "description": "Steve Rogers' patriotic alter ego, wielding his shield to defend justice and freedom."
+    },
+    {
+      "id":3,
+      "name": "Thor",
+      "image": "thor.jpg",
+      "price": 34.99,
+      "rating": 4.8,
+      "quantity": 8,
+      "subcategory": "Marvel",
+      "description": "The God of Thunder, armed with Mjolnir, the enchanted hammer that grants him incredible power."
+    },
+    {
+      "id":4,
+      "name": "Hulk",
+      "image": "hulk.jpg",
+      "price": 39.99,
+      "rating": 4.6,
+      "quantity": 7,
+      "subcategory": "Marvel",
+      "description": "Bruce Banner's alter ego, a green behemoth with immense strength and near-indestructibility."
+    },
+    {
+      "id":5,
+      "name": "Black Widow",
+      "image": "black_widow.jpg",
+      "price": 27.99,
+      "rating": 4.3,
+      "quantity": 12,
+      "subcategory": "Marvel",
+      "description": "Natasha Romanoff, a highly skilled spy and martial artist, using her expertise to take down adversaries."
+    },
+    {
+      "id":6,
+      "name": "Spider-Man",
+      "image": "spider_man.jpg",
+      "price": 31.99,
+      "rating": 4.7,
+      "quantity": 9,
+      "subcategory": "Marvel",
+      "description": "Peter Parker's web-slinging alter ego, with enhanced agility and the ability to stick to walls."
+    },
+    {
+      "id":7,
+      "name": "Darth Vader",
+      "image": "darth_vader.jpg",
+      "price": 39.99,
+      "rating": 4.7,
+      "quantity": 3,
+      "subcategory": "Star Wars",
+      "description": "The iconic Sith Lord with a menacing black suit, using the Force and a red lightsaber."
+    },
+    {
+      "id":8,
+      "name": "Luke Skywalker",
+      "image": "luke_skywalker.jpg",
+      "price": 29.99,
+      "rating": 4.4,
+      "quantity": 6,
+      "subcategory": "Star Wars",
+      "description": "The legendary Jedi Knight, wielding a blue lightsaber and fighting for peace and justice."
+    },
+    {
+      "id":9,
+      "name": "Princess Leia",
+      "image": "princess_leia.jpg",
+      "price": 26.99,
+      "rating": 4.1,
+      "quantity": 4,
+      "subcategory": "Star Wars",
+      "description": "A leader in the Rebel Alliance, armed with intelligence and determination in the fight against the Empire."
+    },
+    {
+      "id":10,
+        "name": "Hawkeye",
+        "image": "hawkeye.jpg",
+        "price": 29.99,
+        "rating": 4.1,
+        "quantity": 6,
+        "subcategory": "Avengers",
+        "description": "Clint Barton, an expert archer and marksman, making precision shots with his bow and arrows."
+      },
+      {
+      "id":11,
+        "name": "Black Panther",
+        "image": "black_panther.jpg",
+        "price": 34.99,
+        "rating": 4.7,
+        "quantity": 9,
+        "subcategory": "Avengers",
+        "description": "T'Challa, the king of Wakanda, with enhanced strength, agility, and the advanced Black Panther suit."
+      },
+      {
+      "id":12,
+        "name": "Scarlet Witch",
+        "image": "scarlet_witch.jpg",
+        "price": 39.99,
+        "rating": 4.7,
+        "quantity": 3,
+        "subcategory": "Avengers",
+        "description": "Wanda Maximoff, possessing reality-warping abilities and unleashing powerful chaos magic."
+      },
+      {
+      "id":13,
+        "name": "Vision",
+        "image": "vision.jpg",
+        "price": 29.99,
+        "rating": 4.4,
+        "quantity": 6,
+        "subcategory": "Avengers",
+        "description": "An android with superhuman abilities, including flight, density manipulation, and energy beams."
+      },
+      {
+      "id":14,
+        "name": "Optimus Prime",
+        "image": "optimus_prime.jpg",
+        "price": 49.99,
+        "rating": 4.9,
+        "quantity": 2,
+        "subcategory": "Transformers",
+        "description": "The noble and powerful leader of the Autobots, with the ability to transform into a semi-truck and wield a laser rifle."
+      },
+      {
+      "id":15,
+        "name": "Bumblebee",
+        "image": "bumblebee.jpg",
+        "price": 39.99,
+        "rating": 4.3,
+        "quantity": 5,
+        "subcategory": "Transformers",
+        "description": "A brave and loyal Autobot scout, transforming into a compact yellow Chevrolet Camaro and equipped with various gadgets."
+      },
+      {
+      "id":16,
+        "name": "Megatron",
+        "image": "megatron.jpg",
+        "price": 44.99,
+        "rating": 4.7,
+        "quantity": 3,
+        "subcategory": "Transformers",
+        "description": "The ruthless and powerful leader of the Decepticons, transforming into a Cybertronian tank and wielding a fusion cannon."
+      },
+      {
+      "id":17,
+        "name": "Starscream",
+        "image": "starscream.jpg",
+        "price": 36.99,
+        "rating": 4.5,
+        "quantity": 7,
+        "subcategory": "Transformers",
+        "description": "A cunning and ambitious Decepticon air commander, transforming into a fighter jet and armed with missile launchers."
+      },
+      {
+      "id":18,
+        "name": "Soundwave",
+        "image": "soundwave.jpg",
+        "price": 42.99,
+        "rating": 4.6,
+        "quantity": 4,
+        "subcategory": "Transformers",
+        "description": "A loyal Decepticon communications officer, transforming into a cassette player and deploying mini cassette bots for reconnaissance."
+      },
+      {
+      "id":19,
+        "name": "Optimus Primal",
+        "image": "optimus_primal.jpg",
+        "price": 54.99,
+        "rating": 4.8,
+        "quantity": 1,
+        "subcategory": "Transformers",
+        "description": "The noble leader of the Maximals, transforming into a massive gorilla and wielding a pair of swords."
+      },
+      {
+      "id":20,
+        "name": "Megatron (Beast Wars)",
+        "image": "megatron_beast_wars.jpg",
+        "price": 49.99,
+        "rating": 4.7,
+        "quantity": 2,
+        "subcategory": "Transformers",
+        "description": "The ruthless and cunning leader of the Predacons, transforming into a Tyrannosaurus Rex and armed with a fusion blaster."
+      }
+]
