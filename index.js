@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const app = express();
 const port = process.env.PORT || 5000;
 require("dotenv").config();
@@ -14,15 +14,15 @@ const toys = require("./data/toy.json");
 console.log(process.env.DB_USER)
 console.log(process.env.DB_PASS)
 
-app.get("/toys", (req, res) => {
-  res.send(toys);
-});
+// app.get("/toys", (req, res) => {
+//   res.send(toys);
+// });
 
-app.get('/toy/:id', (req, res) => {
-    const id = req.params.id; 
-    const selectedToy = toys.find(n => n.id == id);
-    res.send(selectedToy)
-  })
+// app.get('/toy/:id', (req, res) => {
+//     const id = req.params.id; 
+//     const selectedToy = toys.find(n => n.id == id);
+//     res.send(selectedToy)
+//   })
   
   app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
@@ -47,11 +47,31 @@ async function run() {
     await client.connect();
     const database = client.db("toyHome").collection("toys");
 
+
+    app.get("/toys", async(req, res) => {
+      const result = await database.find().toArray();
+      res.send(result);
+    });
+
+    app.get('/toy/:id', async (req, res) => {
+      const id = req.params.id; 
+      const query = { _id: new ObjectId(id) };
+      const result = await database.findOne(query);
+      res.send(result);
+      
+      // const selectedToy = toys.find(n => n.id == id);
+      // res.send(selectedToy)
+    })
+    
+
+
     app.post('/add-toy',async(req, res)=>{
       const body = req.body;
       const result = await database.insertOne(body);
       res.send(result);
     })
+
+
 
     // const result = await database.insertOne(doc);
 
