@@ -9,9 +9,9 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-const toys = require("./data/toy.json");
-console.log(process.env.DB_USER);
-console.log(process.env.DB_PASS);
+// const toys = require("./data/toy.json");
+// console.log(process.env.DB_USER);
+// console.log(process.env.DB_PASS);
 
 // app.get("/toys", (req, res) => {
 //   res.send(toys);
@@ -46,8 +46,7 @@ async function run() {
   const database = client.db("toyHome").collection("toys");
 
   app.get("/toys", async (req, res) => {
-    // const result = await database.find().limit(20).toArray();
-    const result = await database.find().toArray();
+    const result = await database.find().limit(20).toArray();    
     res.send(result);
   });
 
@@ -56,9 +55,6 @@ async function run() {
     const query = { _id: new ObjectId(id) };
     const result = await database.findOne(query);
     res.send(result);
-
-    // const selectedToy = toys.find(n => n.id == id);
-    // res.send(selectedToy)
   });
 
   app.get("/user-toy", async (req, res) => {
