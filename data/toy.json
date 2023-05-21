@@ -3,7 +3,7 @@
       
       
       "name": "Iron Man",
-      "image": "iron_man.jpg",
+      "image": "https://i.ibb.co/CvDLxrg/iron.jpg",
       "price": 29.99,
       "rating": 4.5,
       "quantity": 10,
@@ -13,7 +13,7 @@
     {
       
       "name": "Captain America",
-      "image": "captain_america.jpg",
+      "image": "https://i.ibb.co/DCF8LbV/captain.jpg",
       "price": 24.99,
       "rating": 4.2,
       "quantity": 5,
@@ -23,7 +23,7 @@
     {
       
       "name": "Thor",
-      "image": "thor.jpg",
+      "image": "https://i.ibb.co/WxD6Nsy/thor.jpg",
       "price": 34.99,
       "rating": 4.8,
       "quantity": 8,
@@ -33,7 +33,7 @@
     {
       
       "name": "Hulk",
-      "image": "hulk.jpg",
+      "image": "https://i.ibb.co/9Yj3B8Z/hulk.jpg",
       "price": 39.99,
       "rating": 4.6,
       "quantity": 7,
@@ -43,7 +43,7 @@
     {
       
       "name": "Black Widow",
-      "image": "black_widow.jpg",
+      "image": "https://i.ibb.co/hc6XXrL/black-Widow.jpg",
       "price": 27.99,
       "rating": 4.3,
       "quantity": 12,
@@ -53,7 +53,7 @@
     {
       
       "name": "Spider-Man",
-      "image": "spider_man.jpg",
+      "image": "https://i.ibb.co/bF8xBxw/spider.jpg",
       "price": 31.99,
       "rating": 4.7,
       "quantity": 9,
@@ -63,7 +63,7 @@
     {
       
       "name": "Darth Vader",
-      "image": "darth_vader.jpg",
+      "image": "https://i.ibb.co/rcddRkM/darth.jpg",
       "price": 39.99,
       "rating": 4.7,
       "quantity": 3,
@@ -73,7 +73,7 @@
     {
       
       "name": "Luke Skywalker",
-      "image": "luke_skywalker.jpg",
+      "image": "https://i.ibb.co/s3t3T0z/luke.jpg",
       "price": 29.99,
       "rating": 4.4,
       "quantity": 6,
@@ -83,7 +83,7 @@
     {
       
       "name": "Princess Leia",
-      "image": "princess_leia.jpg",
+      "image": "https://i.ibb.co/K9FxrvQ/princess.jpg",
       "price": 26.99,
       "rating": 4.1,
       "quantity": 4,
@@ -93,7 +93,7 @@
     {
       
         "name": "Hawkeye",
-        "image": "hawkeye.jpg",
+        "image": "https://i.ibb.co/CK4NBw4/hawkeye.jpg",
         "price": 29.99,
         "rating": 4.1,
         "quantity": 6,
@@ -103,7 +103,7 @@
       {
       
         "name": "Black Panther",
-        "image": "black_panther.jpg",
+        "image": "https://i.ibb.co/vknwQ82/black.jpg",
         "price": 34.99,
         "rating": 4.7,
         "quantity": 9,
@@ -113,7 +113,7 @@
       {
       
         "name": "Scarlet Witch",
-        "image": "scarlet_witch.jpg",
+        "image": "https://i.ibb.co/r0XBzNW/scarlet.jpg",
         "price": 39.99,
         "rating": 4.7,
         "quantity": 3,
@@ -123,7 +123,7 @@
       {
       
         "name": "Vision",
-        "image": "vision.jpg",
+        "image": "https://i.ibb.co/4ZchJfF/vision.jpg",
         "price": 29.99,
         "rating": 4.4,
         "quantity": 6,
@@ -133,7 +133,7 @@
       {
       
         "name": "Optimus Prime",
-        "image": "optimus_prime.jpg",
+        "image": "https://i.ibb.co/b69d9Rx/optimus.jpg",
         "price": 49.99,
         "rating": 4.9,
         "quantity": 2,
@@ -143,7 +143,7 @@
       {
       
         "name": "Bumblebee",
-        "image": "bumblebee.jpg",
+        "image": "https://i.ibb.co/2NrtwJC/bumblebee.jpg",
         "price": 39.99,
         "rating": 4.3,
         "quantity": 5,
@@ -153,7 +153,7 @@
       {
       
         "name": "Megatron",
-        "image": "megatron.jpg",
+        "image": "https://i.ibb.co/Y2LGwLy/megatron.jpg",
         "price": 44.99,
         "rating": 4.7,
         "quantity": 3,
@@ -163,7 +163,7 @@
       {
       
         "name": "Starscream",
-        "image": "starscream.jpg",
+        "image": "https://i.ibb.co/xDyRH70/starscream.jpg",
         "price": 36.99,
         "rating": 4.5,
         "quantity": 7,
@@ -173,7 +173,7 @@
       {
       
         "name": "Soundwave",
-        "image": "soundwave.jpg",
+        "image": "https://i.ibb.co/1Kn4bGy/soundwave.jpg",
         "price": 42.99,
         "rating": 4.6,
         "quantity": 4,
@@ -183,7 +183,7 @@
       {
       
         "name": "Optimus Primal",
-        "image": "optimus_primal.jpg",
+        "image": "https://i.ibb.co/0Zz7zQv/optimusl.jpg",
         "price": 54.99,
         "rating": 4.8,
         "quantity": 1,
@@ -193,7 +193,7 @@
       {
       
         "name": "Megatron (Beast Wars)",
-        "image": "megatron_beast_wars.jpg",
+        "image": "https://i.ibb.co/yVMsmGX/megatron-Beast.jpg",
         "price": 49.99,
         "rating": 4.7,
         "quantity": 2,
